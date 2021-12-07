@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "飞出国移民 | 加拿大雇主担保移民"
+title: "飞出国 | 最专业的移民机构，高端移民第一品牌！"
 css:
   - /assets/css/index.css
 ext-css:
@@ -15,7 +15,7 @@ ext-js:
 
 <div id="header-inner" markdown="1">
 
-# flyabroad.io {#title}
+# flyabroad.org {#title}
 
 ## 飞出国，提供最专业的出国咨询服务！ {#subtitle}
 
