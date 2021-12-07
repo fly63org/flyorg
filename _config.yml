@@ -1,1 +1,64 @@
-theme: jekyll-theme-cayman
+remote_theme: daattali/beautiful-jekyll
+
+title: 飞出国
+
+author: 飞出国
+
+navbar-links:
+  专业服务: "/#services"
+  服务优势: "/#aboutus"
+  移民职业: "/#clients"
+  移民项目: "/#portfolio"
+  联系飞出国: "/contact"
+
+title-img: /assets/img/flyabroad-logo-light-s.png
+
+site-css: "/assets/css/flyabroad.css"
+
+keywords: "飞出国，飞出国加拿大移民, 飞出国澳洲移民, 飞出国加拿大雇主担保移民, 飞出国技术移民，飞出国投资移民"
+
+mobile-theme-col: "#0085A1"
+navbar-col: "#05172d"
+navbar-text-col: "#fff"
+navbar-border-col: "#05172d"
+
+social-network-links:
+  email: "member@flyabroadvisa.com"
+  github: flyabroad
+  twitter: flyabroad
+
+url-pretty: "flyabroad.org"
+
+footer-img: "/assets/img/footer-bg.png"
+
+google_analytics: "G-MPP7WQEQDT"
+
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      footer-extra: custom_footer.html
+      nav-short: true
+      share-description: "飞出国，提供最专业的出国移民咨询服务。飞出国，技术移民第一品牌，最专业的加拿大移民专家，为梦想而坚守的长期主义者。"
+      share-img: "/assets/img/flyabroad-logo-light.png"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
